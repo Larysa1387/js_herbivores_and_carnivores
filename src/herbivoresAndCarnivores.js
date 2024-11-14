@@ -20,9 +20,6 @@ class Herbivore extends Animal {
 }
 
 class Carnivore extends Animal {
-  // constructor(name) {
-  //   super(name);
-  // }
   bite(animal) {
     if (animal instanceof Carnivore) {
       return;
@@ -39,6 +36,8 @@ class Carnivore extends Animal {
     }
   }
 }
+
+// const panther = new Carnivore('Bagira');
 
 module.exports = {
   Animal,
